@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1293D4;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    height: 80px;
+    margin-bottom: 5px;
+    width: 100vw;
+}
+
+.navigator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 80px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #1293D4;
+    transform: scale(1.05);
+}
+
+.title {
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.blueTitle {
+    color: #1293D4;
+}
+
+/* SECCIÓN SUBSCRIBE */
+.subscribe-NOSOTROS {
+    margin-top: 0px;
+    background-color: #333;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.text {
+    line-height: 40px;
+    color: #fff;
+}
+
+.email .input {
+    padding: 8px;
+    padding-right: 80px;
+}
+
+.email .btn {
+    width: 100px;
+    background-color: #E8491F;
+    margin: 0;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+}
+
+/* SERVICIOS */
+.servicios-content-padre {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.div-1-textos {
+    width: 65vw;
+    padding: 40px 50px 80px 80px;
+    background-color: #fff;
+}
+
+.div-1-textos h2 {
+    margin-left: 5px;
+}
+
+.div-1-texto-1,
+.div-1-texto-2,
+.div-1-texto-3 {
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #CCCC;
+    border-radius: 2px;
+}
+
+.div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    padding: 10px 30px;
+    background-color: #ffffff;
+}
+
+.que-hacemos {
+    margin-top: 40px;
+    background-color: #35424A;
+    width: 75%;
+    padding: 30px;
+    padding-left: 15px;
+    border-radius: 2px;
+}
+
+.que-hacemos h2 {
+    color: #fff;
+    margin-top: 0;
+}
+
+.que-hacemos p {
+    color: #fff;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    width: 100vw;
+    color: #fff;
+}
+
+/* BOTONES DEL HEADER (COLORES) */
+.inicio-servicios {
+    color: #fff;
+}
+.nosotros-servicios {
+    color: #fff;
+}
+.servicios-servicios {
+    color: #1293D4;
+}
+.contacto-servicios {
+    color: #fff;
+}
